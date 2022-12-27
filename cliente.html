@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería Sabor Espacial</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>PASTELERÍA SABOR ESPACIAL</h1>
+        <img src="img/logo.png" alt="Logo de la pasteleria" width="300" height="300">
+    </header>
+
+    <hr>
+    <h2 class="title-menu">Menú</h2>
+    <section class="flavor-container">
+        <h2 class="subtitle">Sabores</h2>
+        <ul class="list flavor">
+            <li>Vainilla ........................... $12</li>
+            <li>Zanahoria ....................... $14</li>
+            <li>Chocolate ....................... $20</li>
+            <li>Fresa .............................. $16</li>
+        </ul>
+    </section>
+
+    <section class="ornaments-container">
+        <h2 class="subtitle">Adornos para Pastel</h2>
+        <ul class="list ornaments">
+            <li>Caramelo ....................... $6</li>
+            <li>Chispas .......................... $4</li>
+            <li>Gomitas ......................... $8</li>
+        </ul>
+    </section>
+
+    <hr>
+    <section class="order-container">
+        <h2 class="subtitle">Pedido</h2>
+        <form action="" class="form-order">
+            <h3>Contacto del cliente</h3>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" name="nombre" id="nombre" class="text-input">
+            <br><br>
+
+            <label for="telefono">Telefono:</label><br>
+            <input type="text" name="telefono" id="telefono" maxlength="10" class="text-input">
+            <br><br>
+
+            <label for="email">Correo Electrónico:</label><br>
+            <input type="email" name="email" id="email" class="text-input">
+            <br><br>
+
+            <h3>Detalles del pedido</h3>
+            <p>Elije tu sabor:</p>
+            <input type="checkbox" name="vainilla" id="vainilla" class="check-input">
+            <label for="vainilla">Vainilla</label><br>
+
+            <input type="checkbox" name="zanahoria" id="zanahoria" class="check-input">
+            <label for="zanahoria">Zanahoria</label><br>
+
+            <input type="checkbox" name="chocolate" id="chocolate" class="check-input">
+            <label for="chocolate">Chocolate</label><br>
+
+            <input type="checkbox" name="fresa" id="fresa" class="check-input">
+            <label for="fresa">Fresa</label><br><br>
+
+            <p>Elije los adornos para tu pastel:</p>
+            <input type="checkbox" name="caramelo" id="caramelo" class="check-input">
+            <label for="caramelo">Caramelo</label><br>
+
+            <input type="checkbox" name="chispas" id="chispas" class="check-input">
+            <label for="chispas">Chispas</label><br>
+
+            <input type="checkbox" name="gomitas" id="gomitas" class="check-input">
+            <label for="gomitas">Gomitas</label><br><br>
+
+            <button type="submit">Solicitar Pedido</button>
+            <br><br>
+        </form>
+    </section>
+</body>
+</html>
