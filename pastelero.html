@@ -13,19 +13,19 @@
         <img src="img/logo.png" alt="Logo de la pasteleria" width="300" height="300">
     </header>
 
-    <section>
+    <section class="quantity-container">
         <h2 class="subtitle">Cantidad de Sabores</h2>
-        <label for="cantSabores">Disponible:</label><br>
-        <input type="range" id="cantSabores" name="cantSabores" min="0" max="10" value="8"><br> 
+        <label for="cantSabores">Disponible: 8%</label><br>
+        <input type="range" id="cantSabores" name="cantSabores" min="0" max="100" value="8"> 
         
         <h2 class="subtitle">Cantidad de Adornos</h2>
-        <label for="cantAdornos">Disponible:</label><br>
-        <input type="range" id="cantAdornos" name="cantAdornos" min="0" max="10" value="4"><br> 
+        <label for="cantAdornos">Disponible: 76%</label><br>
+        <input type="range" id="cantAdornos" name="cantAdornos" min="0" max="100" value="76">
     </section>
-
-    <section>
+    <hr>
+    <section class="order-container">
         <h2 class="subtitle">Pedidos Realizados</h2>
-        <table border>
+        <table>
             <tr>
                 <th>Nombre</th>
                 <th>Teléfono</th>
@@ -65,15 +65,15 @@
     </section>
 
     <footer>
-        <h2>Dirección</h2>
-        <a href="https://goo.gl/maps/YmKojKxdbe22ETGb8" target="_blank">Ciudad Quesada, San Carlos, Alajuela, Costa Rica</a>
+        <h2 id="address-title">Dirección</h2>
+        <a href="https://goo.gl/maps/YmKojKxdbe22ETGb8" target="_blank" id="address">Ciudad Quesada, San Carlos, Alajuela, Costa Rica</a>
 
-        <h2>Teléfono</h2>
-        <p>+506 8888 8888</p>
-        <a href="https://wa.me/50688888888" target="_blank">Contactanos!!</a>
+        <h2 id="phone-title">Teléfono</h2>
+        <p id="phone-number">+506 8888 8888</p>
+        <a href="https://wa.me/50688888888" target="_blank" id="contact">Contactanos!!</a>
         
-        <h2>Horario de Atención</h2>
-        <p>
+        <h2 id="schedule-title">Horario de Atención</h2>
+        <p id="schedule">
             Lunes - Domingo 6am - 9pm
         </p>
     </footer>
